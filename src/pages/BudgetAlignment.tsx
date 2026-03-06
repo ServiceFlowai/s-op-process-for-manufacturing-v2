@@ -1,0 +1,1 @@
+import React from 'react'; const BudgetAlignment: React.FC = () => { return (<div className="p-6"><h1 className="text-2xl font-bold mb-4">Budget Alignment</h1><p className="text-gray-700">Integrate financial budgets with demand and supply plans to ensure alignment and track performance against financial goals.</p></div>); }; export default BudgetAlignment;
