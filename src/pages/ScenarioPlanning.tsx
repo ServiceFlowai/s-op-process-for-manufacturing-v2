@@ -1,0 +1,1 @@
+import React from 'react'; const ScenarioPlanning: React.FC = () => { return (<div className="p-6"><h1 className="text-2xl font-bold mb-4">Scenario Planning</h1><p className="text-gray-700">Compare different scenarios to assess the financial implications of various plans and make informed decisions.</p></div>); }; export default ScenarioPlanning;

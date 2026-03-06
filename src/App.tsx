@@ -1,8 +1,1 @@
-export default function App() {
-  return (
-    <div style={{ fontFamily: 'system-ui', padding: '2rem', maxWidth: 800, margin: '0 auto' }}>
-      <h1>S&OP Process for Manufacturing v2</h1>
-      <p>Project scaffold ready. Start building!</p>
-    </div>
-  );
-}
+import React from 'react'; import { Routes, Route } from 'react-router-dom'; import Dashboard from './pages/Dashboard'; import Forecasting from './pages/Forecasting'; import CapacityPlanning from './pages/CapacityPlanning'; import BudgetAlignment from './pages/BudgetAlignment'; import ScenarioPlanning from './pages/ScenarioPlanning'; import DecisionLog from './pages/DecisionLog'; import Navigation from './components/Navigation'; const App: React.FC = () => { return (<div className="min-h-screen bg-gray-100"><Navigation /><Routes><Route path="/" element={<Dashboard />} /><Route path="/forecasting" element={<Forecasting />} /><Route path="/capacity-planning" element={<CapacityPlanning />} /><Route path="/budget-alignment" element={<BudgetAlignment />} /><Route path="/scenario-planning" element={<ScenarioPlanning />} /><Route path="/decision-log" element={<DecisionLog />} /></Routes></div>); }; export default App;
